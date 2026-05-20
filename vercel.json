@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "dist/jaimexcarlos-portfolio/browser",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

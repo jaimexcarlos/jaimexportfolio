@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "gulp compress && ng serve",
-    "prebuild": "gulp compress",
+    "prebuild": "",
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -12,7 +12,7 @@
     "serve:ssr": "node dist/jaimexcarlos-portfolio/server/main.js",
     "build:ssr": "ng build --configuration production && ng run jaimexcarlos-portfolio:server",
     "prerender": "gulp compress && ng run jaimexcarlos-portfolio:prerender",
-    "vercel-build": "npm run build:ssr",
+    "vercel-build": "ng build --configuration production",
     "scully-build": "ng build --configuration production && npx scully --noPrompt --project jaimexcarlos-portfolio --scanRoutes"
   },
   "private": true,
