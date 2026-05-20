@@ -30,15 +30,15 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
-			  "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
-			  "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
               "src/styles.scss"
             ],
-			"stylePreprocessorOptions": {
-				"includePaths": [
-					"src/assets/scss"
-				]
-			},
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/scss"
+              ]
+            },
             "scripts": [],
             "serviceWorker": true,
             "ngswConfigPath": "ngsw-config.json"
@@ -66,11 +66,11 @@
               "outputHashing": "all",
               "optimization": {
                 "scripts": true,
-                  "styles": {
-                    "minify": true,
-                    "inlineCritical": false
-                  },
-                  "fonts": true
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": true
               },
               "sourceMap": false,
               "namedChunks": false,
@@ -123,99 +123,12 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
-			  "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
-			  "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
               "src/styles.scss"
             ],
             "scripts": []
           }
-        },
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/jaimexcarlos-portfolio/server",
-            "main": "server.ts",
-            "tsConfig": "tsconfig.server.json",
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/assets/scss"
-              ]
-            },
-            "inlineStyleLanguage": "scss"
-          },
-          "configurations": {
-            "production": {
-              "outputHashing": "media",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
-              "optimization": true,
-              "sourceMap": false,
-              "extractLicenses": true,
-              "buildOptimizer": true
-            },
-            "development": {
-              "optimization": false,
-              "sourceMap": true,
-              "extractLicenses": false,
-              "vendorChunk": true,
-              "buildOptimizer": false
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "serve-ssr": {
-          "builder": "@nguniversal/builders:ssr-dev-server",
-          "configurations": {
-            "development": {
-              "browserTarget": "jaimexcarlos-portfolio:build:development",
-              "serverTarget": "jaimexcarlos-portfolio:server:development"
-            },
-            "production": {
-              "browserTarget": "jaimexcarlos-portfolio:build:production",
-              "serverTarget": "jaimexcarlos-portfolio:server:production"
-            }
-          },
-          "defaultConfiguration": "development"
-        },
-        "prerender": {
-          "builder": "@nguniversal/builders:prerender",
-          "options": {
-            "routes": [
-              "/"
-            ]
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "jaimexcarlos-portfolio:build:production",
-              "serverTarget": "jaimexcarlos-portfolio:server:production"
-            },
-            "development": {
-              "browserTarget": "jaimexcarlos-portfolio:build:development",
-              "serverTarget": "jaimexcarlos-portfolio:server:development"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "app-shell": {
-          "builder": "@angular-devkit/build-angular:app-shell",
-          "options": {
-            "route": "shell"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "jaimexcarlos-portfolio:build:production",
-              "serverTarget": "jaimexcarlos-portfolio:server:production"
-            },
-            "development": {
-              "browserTarget": "jaimexcarlos-portfolio:build:development",
-              "serverTarget": "jaimexcarlos-portfolio:server:development"
-            }
-          },
-          "defaultConfiguration": "production"
         }
       }
     }
