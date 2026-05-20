@@ -11,28 +11,22 @@ export class OtherSitesComponent implements OnInit {
 	constructor() {
 		this.otherSites = [
 			{
-				name: "CodeAssist",
-				link: "https://github.com/tyron12233/CodeAssist",
-				image: "codeassist",
-				description: "An Open Source Android IDE. This is my main project and is currently in development. It is a full-featured IDE that supports Java and Kotlin. My most popular project on GitHub with over 700 stars."
+				name: "Balai Assist",
+				link: "https://balai-assist.vercel.app/",
+				image: "balai-assist",
+				description: "A full-stack service management platform built for Club Balai Isabel featuring a guest portal with QR code authentication, real-time staff dashboards with role-based ticket routing, an executive analytics dashboard, AI-powered chatbot, and WebSocket-based live updates. Built with React, Node.js/Express, Supabase, Redis, and Socket.IO."
 			},
 			{
-				name: "Sketchub",
-				link: "https://sketchub.in",
-				image: "sketchub",
-				description: "An app store for open source projects. It is a platform for developers to share their projects and for users to discover new apps."
+				name: "NIST Incident Response Program with SIEM",
+				link: "#",
+				image: "thesis-siem",
+				description: "An Information Security Incident Response Program based on the NIST Incident Response Framework with the integration of Wazuh SIEM for One Agno Medical Solutions. Won Best Thesis Award at De La Salle Lipa."
 			},
 			{
-				name: "CodeRush",
-				link: "https://needed-wrench-production.up.railway.app/",
-				image: "coderush",
-				description: "An Open Source type racing game. It is a fun way to practice your typing skills. Made for a school event."
-			},
-			{
-				name: "GroovyShell for Android",
-				link: "https://github.com/tyron12233/GroovyShellAndroid",
-				image: "groovyshell",
-				description: "An Open Source Android app that allows you to run Groovy scripts on your phone."
+				name: "Stock Market Blog SEO Optimization",
+				link: "#",
+				image: "seo-project",
+				description: "Optimized and uploaded 270 stock market-related blog posts by applying SEO strategies such as metadata structuring, internal linking, and hyperlink optimization to improve search engine ranking and content discoverability."
 			}
 		];
 	}

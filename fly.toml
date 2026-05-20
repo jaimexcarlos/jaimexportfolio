@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for tys-portfolio on 2023-11-05T21:00:18+08:00
+# fly.toml app configuration file generated for jaimexcarlos-portfolio
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "tys-portfolio"
+app = "jaimexcarlos-portfolio"
 primary_region = "sin"
 
 [build]

@@ -21,17 +21,22 @@ export class HeroBannerComponent implements OnInit, OnDestroy {
 		{
 			icon: "mdi:instagram",
 			text: "Instagram",
-			link: "https://www.instagram.com/tyronscott_/"
+			link: "https://www.instagram.com/jaimexcarlos/"
 		},
 		{
 			icon: "mdi:linkedin",
 			text: "LinkedIn",
-			link: "https://www.linkedin.com/in/tyron-scott-lucena-b176b2186/"
+			link: "https://www.linkedin.com/in/jaime-carlos-rafer-bb8302208/"
+		},
+		{
+			icon: "mdi:github",
+			text: "GitHub",
+			link: "https://github.com/jaimexcarlos"
 		},
 		{
 			icon: "mdi:spotify",
 			text: "Spotify",
-			link: "https://open.spotify.com/user/31vg2evqwiruuew5swydrvpd2s44"
+			link: "https://open.spotify.com/user/r0yvsv2ymu9o90egvhnr0ucqa"
 		},
 	];
 

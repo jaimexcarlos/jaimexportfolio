@@ -8,8 +8,8 @@ import { AccentService } from 'src/app/services/accent-service.service';
 	styleUrls: ['./profile-card.component.scss']
 })
 export class ProfileCardComponent implements OnInit, OnDestroy {
-	name = "Tyron Scott C. Lucena";
-	tagline = "Software engineer, web developer, Linux enthusiast.";
+	name = "Jaime Carlos M. Rafer";
+	tagline = "Graduate from De La Salle Lipa | Civil Service Professional Eligible | Google Cybersecurity & IT Support Professional | Microsoft IT Support Specialist";
 
 	images: Array<string>;
 	coverImage: string;

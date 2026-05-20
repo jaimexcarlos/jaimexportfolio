@@ -19,63 +19,43 @@ export class SkillListComponent implements OnInit {
 				text: "Linux"
 			},
 			{
-				icon: "fa-brands:jenkins",
-				text: "Jenkins"
+				icon: "simple-icons:wazuh",
+				text: "Wazuh (SIEM)"
 			},
 			{
-				icon: "simple-icons:sonarqube",
-				text: "Sonarqube"
+				icon: "simple-icons:nmap",
+				text: "Nmap"
+			},
+			{
+				icon: "simple-icons:burpsuite",
+				text: "Burp Suite"
+			},
+			{
+				icon: "simple-icons:tenableness",
+				text: "Tenable Nessus"
 			},
 			{
 				icon: "fa-brands:docker",
 				text: "Docker"
 			},
 			{
-				icon: "codicon:terminal-bash",
-				text: "Shell scripting"
+				icon: "simple-icons:virtualbox",
+				text: "VirtualBox"
 			},
 			{
-				icon: "cib:amazon-aws",
-				text: "Amazon EC2"
-			},
-			{
-				icon: "cib:cloudflare",
-				text: "Cloudflare"
-			},
-			{
-				icon: "fa-brands:linode",
-				text: "Linode"
+				icon: "simple-icons:uipath",
+				text: "UiPath (RPA)"
 			},
 		];
 
 		this.feWebStack = [
 			{
-				icon: "fa-brands:angular",
-				text: "Angular"
-			},
-			{
-				icon: "cib:typescript",
-				text: "TypeScript"
-			},
-			{
 				icon: "fa-brands:react",
 				text: "React"
 			},
 			{
-				icon: "fa-brands:vuejs",
-				text: "Vue.js"
-			},
-			{
-				icon: "cib:nuxt-js",
-				text: "Nuxt"
-			},
-			{
-				icon: "cib:wordpress",
-				text: "WordPress"
-			},
-			{
-				icon: "cib:sass-alt",
-				text: "Sass"
+				icon: "cib:javascript",
+				text: "JavaScript"
 			},
 			{
 				icon: "fa-brands:html5",
@@ -86,8 +66,16 @@ export class SkillListComponent implements OnInit {
 				text: "CSS3"
 			},
 			{
-				icon: "cib:javascript",
-				text: "JavaScript"
+				icon: "simple-icons:tailwindcss",
+				text: "Tailwind CSS"
+			},
+			{
+				icon: "simple-icons:vite",
+				text: "Vite"
+			},
+			{
+				icon: "simple-icons:figma",
+				text: "Figma"
 			},
 		];
 
@@ -95,31 +83,34 @@ export class SkillListComponent implements OnInit {
 			{
 				icon: "cib:node-js",
 				text: "Node.js"
-				
+			},
+			{
+				icon: "simple-icons:express",
+				text: "Express.js"
+			},
+			{
+				icon: "simple-icons:supabase",
+				text: "Supabase"
+			},
+			{
+				icon: "simple-icons:redis",
+				text: "Redis"
+			},
+			{
+				icon: "simple-icons:socketdotio",
+				text: "Socket.IO"
 			},
 			{
 				icon: "cib:python",
 				text: "Python"
 			},
 			{
-				icon: "cib:java",
-				text: "Java",
+				icon: "simple-icons:mysql",
+				text: "MySQL"
 			},
-			{
-				icon: "cib:next-js",
-				text: "Next.js"
-			}
 		];
 
 		this.generalStack = [
-			{
-				icon: "cib:flutter",
-				text: "Flutter"
-			},
-			{
-				icon: "simple-icons:dart",
-				text: "Dart"
-			},
 			{
 				icon: "cib:git",
 				text: "Git"
@@ -129,25 +120,25 @@ export class SkillListComponent implements OnInit {
 				text: "GitHub"
 			},
 			{
-				icon: "cib:bitbucket",
-				text: "BitBucket"
+				icon: "simple-icons:render",
+				text: "Render"
 			},
 			{
-				icon: "cib:vim",
-				text: "Vim"
+				icon: "cib:wordpress",
+				text: "WordPress"
+			},
+			{
+				icon: "simple-icons:vitest",
+				text: "Vitest"
 			},
 			{
 				icon: "akar-icons:vscode-fill",
 				text: "VSCode"
 			},
 			{
-				icon: "cib:android",
-				text: "Android"
+				icon: "simple-icons:openai",
+				text: "OpenAI API"
 			},
-			{
-				icon: "cib:unity",
-				text: "Unity"
-			}
 		];
 	}
 

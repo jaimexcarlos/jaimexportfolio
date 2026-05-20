@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dartegnians-portfolio": {
+    "jaimexcarlos-portfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dartegnians-portfolio/browser",
+            "outputPath": "dist/jaimexcarlos-portfolio/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -94,10 +94,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dartegnians-portfolio:build:production"
+              "browserTarget": "jaimexcarlos-portfolio:build:production"
             },
             "development": {
-              "browserTarget": "dartegnians-portfolio:build:development"
+              "browserTarget": "jaimexcarlos-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,7 +105,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dartegnians-portfolio:build"
+            "browserTarget": "jaimexcarlos-portfolio:build"
           }
         },
         "test": {
@@ -133,7 +133,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/dartegnians-portfolio/server",
+            "outputPath": "dist/jaimexcarlos-portfolio/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "stylePreprocessorOptions": {
@@ -171,12 +171,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "dartegnians-portfolio:build:development",
-              "serverTarget": "dartegnians-portfolio:server:development"
+              "browserTarget": "jaimexcarlos-portfolio:build:development",
+              "serverTarget": "jaimexcarlos-portfolio:server:development"
             },
             "production": {
-              "browserTarget": "dartegnians-portfolio:build:production",
-              "serverTarget": "dartegnians-portfolio:server:production"
+              "browserTarget": "jaimexcarlos-portfolio:build:production",
+              "serverTarget": "jaimexcarlos-portfolio:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -190,12 +190,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "dartegnians-portfolio:build:production",
-              "serverTarget": "dartegnians-portfolio:server:production"
+              "browserTarget": "jaimexcarlos-portfolio:build:production",
+              "serverTarget": "jaimexcarlos-portfolio:server:production"
             },
             "development": {
-              "browserTarget": "dartegnians-portfolio:build:development",
-              "serverTarget": "dartegnians-portfolio:server:development"
+              "browserTarget": "jaimexcarlos-portfolio:build:development",
+              "serverTarget": "jaimexcarlos-portfolio:server:development"
             }
           },
           "defaultConfiguration": "production"
@@ -207,12 +207,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "dartegnians-portfolio:build:production",
-              "serverTarget": "dartegnians-portfolio:server:production"
+              "browserTarget": "jaimexcarlos-portfolio:build:production",
+              "serverTarget": "jaimexcarlos-portfolio:server:production"
             },
             "development": {
-              "browserTarget": "dartegnians-portfolio:build:development",
-              "serverTarget": "dartegnians-portfolio:server:development"
+              "browserTarget": "jaimexcarlos-portfolio:build:development",
+              "serverTarget": "jaimexcarlos-portfolio:server:development"
             }
           },
           "defaultConfiguration": "production"

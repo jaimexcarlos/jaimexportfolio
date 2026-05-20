@@ -1,0 +1,49 @@
+<article class="certifications">
+	<header class="certifications__header">
+		<h1 class="certifications__heading">
+			<span class="certifications__header-icon material-symbols-rounded">workspace_premium</span>
+			Certifications & Training
+		</h1>
+		<p class="certifications__tagline">Professional certifications and completed courses that validate my expertise.</p>
+	</header>
+
+	<section class="certifications__section">
+		<h2 class="certifications__section-title">
+			<span class="material-symbols-rounded certifications__section-icon">verified</span>
+			Professional Certificates
+		</h2>
+		<div class="certifications__grid">
+			<article *ngFor="let cert of professionalCerts" class="certifications__card certifications__card--professional">
+				<div class="certifications__card-content">
+					<h3 class="certifications__card-name">{{ cert.name }}</h3>
+					<span class="certifications__card-issuer">{{ cert.issuer }}</span>
+					<span class="certifications__card-date">{{ cert.date }}</span>
+				</div>
+				<a *ngIf="cert.verifyLink" [href]="cert.verifyLink" class="certifications__verify-link" target="_blank" rel="noopener">
+					<span class="material-symbols-rounded">open_in_new</span>
+					Verify
+				</a>
+			</article>
+		</div>
+	</section>
+
+	<section class="certifications__section">
+		<h2 class="certifications__section-title">
+			<span class="material-symbols-rounded certifications__section-icon">school</span>
+			Course Certificates
+		</h2>
+		<div class="certifications__grid">
+			<article *ngFor="let cert of courseCerts" class="certifications__card">
+				<div class="certifications__card-content">
+					<h3 class="certifications__card-name">{{ cert.name }}</h3>
+					<span class="certifications__card-issuer">{{ cert.issuer }}</span>
+					<span class="certifications__card-date">{{ cert.date }}</span>
+				</div>
+				<a *ngIf="cert.verifyLink" [href]="cert.verifyLink" class="certifications__verify-link" target="_blank" rel="noopener">
+					<span class="material-symbols-rounded">open_in_new</span>
+					Verify
+				</a>
+			</article>
+		</div>
+	</section>
+</article>

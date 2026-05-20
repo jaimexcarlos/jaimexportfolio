@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://portfolio.dartegnian.com/sitemap.xml
+Sitemap: https://jaimexcarlos.github.io/sitemap.xml

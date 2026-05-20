@@ -1,5 +1,5 @@
 {
-  "name": "dartegnians-portfolio",
+  "name": "jaimexcarlos-portfolio",
   "version": "1.4.7",
   "scripts": {
     "ng": "ng",
@@ -8,12 +8,12 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run dartegnians-portfolio:serve-ssr",
-    "serve:ssr": "node dist/dartegnians-portfolio/server/main.js",
-    "build:ssr": "ng build --configuration production && ng run dartegnians-portfolio:server",
-    "prerender": "gulp compress && ng run dartegnians-portfolio:prerender",
+    "dev:ssr": "ng run jaimexcarlos-portfolio:serve-ssr",
+    "serve:ssr": "node dist/jaimexcarlos-portfolio/server/main.js",
+    "build:ssr": "ng build --configuration production && ng run jaimexcarlos-portfolio:server",
+    "prerender": "gulp compress && ng run jaimexcarlos-portfolio:prerender",
     "vercel-build": "npm run build:ssr",
-    "scully-build": "ng build --configuration production && npx scully --noPrompt --project dartegnians-portfolio --scanRoutes"
+    "scully-build": "ng build --configuration production && npx scully --noPrompt --project jaimexcarlos-portfolio --scanRoutes"
   },
   "private": true,
   "dependencies": {

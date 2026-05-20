@@ -8,12 +8,12 @@ import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 })
 export class SkillInfoComponent implements OnInit {
 	webAttributes = [
-		"object oriented",
-		"flutter-enthusiast",
-		"versatile",
-		"app-centric",
-		"web-oriented",
-		"impassioned"
+		"security-focused",
+		"detail-oriented",
+		"full-stack capable",
+		"automation-driven",
+		"problem-solver",
+		"team-player"
 	];
 	webAttributeIndex = 0;
 	webAttributeCharacter = 0;
