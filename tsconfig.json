@@ -29,6 +29,9 @@
     },
     "useDefineForClassFields": false
   },
+  "exclude": [
+    "server.ts"
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
