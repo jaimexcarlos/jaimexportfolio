@@ -15,7 +15,7 @@ export class SkillListComponent implements OnInit {
 	constructor() {
 		this.devOpsStack = [
 			{
-				icon: "codicon:terminal-linux",
+				icon: "cib:linux",
 				text: "Linux"
 			},
 			{
@@ -23,15 +23,15 @@ export class SkillListComponent implements OnInit {
 				text: "Wazuh (SIEM)"
 			},
 			{
-				icon: "simple-icons:nmap",
+				icon: "mdi:radar",
 				text: "Nmap"
 			},
 			{
-				icon: "simple-icons:burpsuite",
+				icon: "simple-icons:portswigger",
 				text: "Burp Suite"
 			},
 			{
-				icon: "simple-icons:tenableness",
+				icon: "mdi:shield-search",
 				text: "Tenable Nessus"
 			},
 			{
@@ -43,7 +43,7 @@ export class SkillListComponent implements OnInit {
 				text: "VirtualBox"
 			},
 			{
-				icon: "simple-icons:uipath",
+				icon: "mdi:robot",
 				text: "UiPath (RPA)"
 			},
 		];
@@ -81,7 +81,7 @@ export class SkillListComponent implements OnInit {
 
 		this.beWebStack = [
 			{
-				icon: "cib:node-js",
+				icon: "fa-brands:node-js",
 				text: "Node.js"
 			},
 			{
@@ -101,7 +101,7 @@ export class SkillListComponent implements OnInit {
 				text: "Socket.IO"
 			},
 			{
-				icon: "cib:python",
+				icon: "fa-brands:python",
 				text: "Python"
 			},
 			{
@@ -112,11 +112,11 @@ export class SkillListComponent implements OnInit {
 
 		this.generalStack = [
 			{
-				icon: "cib:git",
+				icon: "fa-brands:git-alt",
 				text: "Git"
 			},
 			{
-				icon: "cib:github",
+				icon: "fa-brands:github",
 				text: "GitHub"
 			},
 			{
@@ -124,7 +124,7 @@ export class SkillListComponent implements OnInit {
 				text: "Render"
 			},
 			{
-				icon: "cib:wordpress",
+				icon: "fa-brands:wordpress",
 				text: "WordPress"
 			},
 			{
@@ -132,7 +132,7 @@ export class SkillListComponent implements OnInit {
 				text: "Vitest"
 			},
 			{
-				icon: "akar-icons:vscode-fill",
+				icon: "simple-icons:visualstudiocode",
 				text: "VSCode"
 			},
 			{
