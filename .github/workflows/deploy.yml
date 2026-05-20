@@ -25,12 +25,16 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
-      - name: Build
-        run: npx ng build --configuration production --base-href /jaimexportfolio/ 2>&1 || (echo "Build failed" && exit 1)
-        env:
-          CI: false
+      - name: List installed packages
+        run: npx ng version
+
+      - name: Build Angular app
+        run: npx ng build --configuration production --base-href /jaimexportfolio/
+
+      - name: Verify output
+        run: ls -la dist/jaimexcarlos-portfolio/browser/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
