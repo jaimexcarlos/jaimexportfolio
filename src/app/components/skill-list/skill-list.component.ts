@@ -15,7 +15,7 @@ export class SkillListComponent implements OnInit {
 	constructor() {
 		this.devOpsStack = [
 			{
-				icon: "fa-brands:linux",
+				icon: "cib:linux",
 				text: "Linux"
 			},
 			{
@@ -35,11 +35,11 @@ export class SkillListComponent implements OnInit {
 				text: "Tenable Nessus"
 			},
 			{
-				icon: "fa-brands:docker",
+				icon: "cib:docker",
 				text: "Docker"
 			},
 			{
-				icon: "mdi:monitor",
+				icon: "mdi:desktop-classic",
 				text: "VirtualBox"
 			},
 			{
@@ -50,23 +50,23 @@ export class SkillListComponent implements OnInit {
 
 		this.feWebStack = [
 			{
-				icon: "fa-brands:react",
+				icon: "cib:react",
 				text: "React"
 			},
 			{
-				icon: "fa-brands:js-square",
+				icon: "cib:javascript",
 				text: "JavaScript"
 			},
 			{
-				icon: "fa-brands:html5",
+				icon: "cib:html5",
 				text: "HTML5"
 			},
 			{
-				icon: "fa-brands:css3-alt",
+				icon: "cib:css3",
 				text: "CSS3"
 			},
 			{
-				icon: "mdi:tailwind",
+				icon: "cib:tailwind-css",
 				text: "Tailwind CSS"
 			},
 			{
@@ -74,14 +74,14 @@ export class SkillListComponent implements OnInit {
 				text: "Vite"
 			},
 			{
-				icon: "fa-brands:figma",
+				icon: "cib:figma",
 				text: "Figma"
 			},
 		];
 
 		this.beWebStack = [
 			{
-				icon: "fa-brands:node-js",
+				icon: "cib:node-js",
 				text: "Node.js"
 			},
 			{
@@ -93,7 +93,7 @@ export class SkillListComponent implements OnInit {
 				text: "Supabase"
 			},
 			{
-				icon: "mdi:memory",
+				icon: "cib:redis",
 				text: "Redis"
 			},
 			{
@@ -101,22 +101,22 @@ export class SkillListComponent implements OnInit {
 				text: "Socket.IO"
 			},
 			{
-				icon: "fa-brands:python",
+				icon: "cib:python",
 				text: "Python"
 			},
 			{
-				icon: "mdi:database-search",
+				icon: "cib:mysql",
 				text: "MySQL"
 			},
 		];
 
 		this.generalStack = [
 			{
-				icon: "fa-brands:git-alt",
+				icon: "cib:git",
 				text: "Git"
 			},
 			{
-				icon: "fa-brands:github",
+				icon: "cib:github",
 				text: "GitHub"
 			},
 			{
@@ -124,7 +124,7 @@ export class SkillListComponent implements OnInit {
 				text: "Render"
 			},
 			{
-				icon: "fa-brands:wordpress",
+				icon: "cib:wordpress",
 				text: "WordPress"
 			},
 			{
