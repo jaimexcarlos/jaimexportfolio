@@ -22,6 +22,7 @@ import { ResponsiveImageComponent } from './components/responsive-image/responsi
 import { RouterModule } from '@angular/router';
 import { OtherSitesComponent } from './components/other-sites/other-sites.component';
 import { CertificationsComponent } from './components/certifications/certifications.component';
+import { RevealDirective } from './directives/reveal.directive';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CertificationsComponent } from './components/certifications/certificati
     FooterComponent,
     ResponsiveImageComponent,
 	OtherSitesComponent,
-	CertificationsComponent
+	CertificationsComponent,
+	RevealDirective
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

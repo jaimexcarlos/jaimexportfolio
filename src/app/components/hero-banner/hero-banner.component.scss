@@ -1,5 +1,16 @@
 @import "material-you";
 
+@keyframes fade-in-up {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 :host {
 	flex-grow: 1;
 	display: flex;
@@ -41,6 +52,7 @@
 		align-items: center;
 		text-align: center;
 		width: 75%;
+		animation: fade-in-up 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 
 		@include media-breakpoint-down(md) {
 			width: 100%;
@@ -52,6 +64,7 @@
 		font-size: 4rem;
 		margin: 1rem 0rem;
 		margin-bottom: 1.5rem;
+		animation: fade-in-up 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
 
 		@include media-breakpoint-down(lg) {
 			font-size: 3rem;
@@ -63,6 +76,7 @@
 		font-weight: normal;
 		font-size: 1.1rem;
 		margin-bottom: auto;
+		animation: fade-in-up 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.4s both;
 	}
 
 	&__img {
