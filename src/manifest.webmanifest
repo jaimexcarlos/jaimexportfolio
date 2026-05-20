@@ -1,8 +1,8 @@
 {
   "name": "Jaime Carlos' Portfolio",
   "short_name": "Jaime Carlos' Portfolio",
-  "theme_color": "#1976d2",
-  "background_color": "#cde5ff",
+  "theme_color": "#2e6b3a",
+  "background_color": "#f8faf2",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

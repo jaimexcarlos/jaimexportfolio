@@ -6,7 +6,7 @@ import { Theme, argbFromHex, themeFromImage } from "@material/material-color-uti
 import { themeFromSourceColor, applyTheme } from "@material/material-color-utilities";
 import ColorThief, { RGBColor } from 'colorthief';
 
-const defaultColor = "#fe6262";
+const defaultColor = "#2e6b3a";
 
 @Injectable({
 	providedIn: 'root'

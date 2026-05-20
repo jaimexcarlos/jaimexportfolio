@@ -4,19 +4,19 @@
 
 ::-webkit-scrollbar {
 	@include theme-transition();
-    background: #23005c;
+    background: #1a1c19;
     background: #{var(--md-sys-color-background)};
 }
 ::-webkit-scrollbar-thumb {
 	@include theme-transition();
     border-radius: 32px;
-    background: #e9ddff;
+    background: #2f312d;
     background: #{var(--md-sys-color-inverse-surface)};
 }
 ::selection {
 	@include theme-transition();
-    background: #23005c;
-    color: #e9ddff;
+    background: #2f312d;
+    color: #f0f1eb;
     background: #{var(--md-sys-color-inverse-surface)};
     color: #{var(--md-sys-color-inverse-on-surface)};
 }
@@ -48,7 +48,7 @@ body {
 	display: flex;
 	width: 100%;
 	min-height: 100vh;
-    background-color: #003c94;
+    background-color: #1a5225;
     color: white;
 	padding-left: 8%;
     padding-top: 6%;
