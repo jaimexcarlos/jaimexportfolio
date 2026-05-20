@@ -15,19 +15,19 @@ export class SkillListComponent implements OnInit {
 	constructor() {
 		this.devOpsStack = [
 			{
-				icon: "cib:linux",
+				icon: "fa-brands:linux",
 				text: "Linux"
 			},
 			{
-				icon: "simple-icons:wazuh",
+				icon: "mdi:shield-lock",
 				text: "Wazuh (SIEM)"
 			},
 			{
-				icon: "mdi:radar",
+				icon: "mdi:console-network",
 				text: "Nmap"
 			},
 			{
-				icon: "simple-icons:portswigger",
+				icon: "mdi:bug",
 				text: "Burp Suite"
 			},
 			{
@@ -39,11 +39,11 @@ export class SkillListComponent implements OnInit {
 				text: "Docker"
 			},
 			{
-				icon: "simple-icons:virtualbox",
+				icon: "mdi:monitor",
 				text: "VirtualBox"
 			},
 			{
-				icon: "mdi:robot",
+				icon: "mdi:robot-industrial",
 				text: "UiPath (RPA)"
 			},
 		];
@@ -54,7 +54,7 @@ export class SkillListComponent implements OnInit {
 				text: "React"
 			},
 			{
-				icon: "cib:javascript",
+				icon: "fa-brands:js-square",
 				text: "JavaScript"
 			},
 			{
@@ -62,19 +62,19 @@ export class SkillListComponent implements OnInit {
 				text: "HTML5"
 			},
 			{
-				icon: "fa-brands:css3",
+				icon: "fa-brands:css3-alt",
 				text: "CSS3"
 			},
 			{
-				icon: "simple-icons:tailwindcss",
+				icon: "mdi:tailwind",
 				text: "Tailwind CSS"
 			},
 			{
-				icon: "simple-icons:vite",
+				icon: "mdi:lightning-bolt",
 				text: "Vite"
 			},
 			{
-				icon: "simple-icons:figma",
+				icon: "fa-brands:figma",
 				text: "Figma"
 			},
 		];
@@ -85,19 +85,19 @@ export class SkillListComponent implements OnInit {
 				text: "Node.js"
 			},
 			{
-				icon: "simple-icons:express",
+				icon: "mdi:server",
 				text: "Express.js"
 			},
 			{
-				icon: "simple-icons:supabase",
+				icon: "mdi:database",
 				text: "Supabase"
 			},
 			{
-				icon: "simple-icons:redis",
+				icon: "mdi:memory",
 				text: "Redis"
 			},
 			{
-				icon: "simple-icons:socketdotio",
+				icon: "mdi:lan-connect",
 				text: "Socket.IO"
 			},
 			{
@@ -105,7 +105,7 @@ export class SkillListComponent implements OnInit {
 				text: "Python"
 			},
 			{
-				icon: "simple-icons:mysql",
+				icon: "mdi:database-search",
 				text: "MySQL"
 			},
 		];
@@ -120,7 +120,7 @@ export class SkillListComponent implements OnInit {
 				text: "GitHub"
 			},
 			{
-				icon: "simple-icons:render",
+				icon: "mdi:cloud-upload",
 				text: "Render"
 			},
 			{
@@ -128,15 +128,15 @@ export class SkillListComponent implements OnInit {
 				text: "WordPress"
 			},
 			{
-				icon: "simple-icons:vitest",
+				icon: "mdi:test-tube",
 				text: "Vitest"
 			},
 			{
-				icon: "simple-icons:visualstudiocode",
+				icon: "mdi:microsoft-visual-studio-code",
 				text: "VSCode"
 			},
 			{
-				icon: "simple-icons:openai",
+				icon: "mdi:robot",
 				text: "OpenAI API"
 			},
 		];
